@@ -21,7 +21,7 @@ const temp = [];
 add.addEventListener("click", () => {
   if (ticker.value == undefined) return;
 
-  const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${ticker.value}&apikey=${config.API_KEY}`;
+  const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${ticker.value}&apikey=${API_KEY}`;
 
   fetch(url)
     .then((response) => {
