@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Stock Tracker</title>
+</head>
+
+<body>
+  <div class="bar">
+    <input id="enter-ticker" type="text" placeholder="Enter Ticker">
+    <button id="add-button" class=button>+</button>
+  </div>
+
+  <div>
+    <ul id="list"></ul>
+  </div>
+
+  <template id="box-template">
+    <li id="box-list">
+      <label id="box-label">
+        <span class="list-item" id="symbol"></span>
+        <span class="list-item" id="price"></span>
+        <span class="list-item" id="open"></span>
+        <span class="list-item" id="high"></span>
+        <span class="list-item" id="low"></span>
+        <span class="list-item" id="volume"></span>
+        <span class="list-item" id="latest"></span>
+        <span class="list-item" id="close"></span>
+        <span class="list-item" id="change"></span>
+        <span class="list-item" id="percent"></span>
+        <span class="list-item" id="symbol"></span>
+      </label>
+      <button data-button-delete>X</button>
+    </li>
+  </template>
+</body>
+
+</html>
