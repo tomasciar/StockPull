@@ -56,7 +56,8 @@ add.addEventListener("click", () => {
       saveItems();
     })
     .catch((err) => {
-      console.error(err);
+      alert("Slow down! Only 5 requests can be made per minute.");
+      return;
     });
 
   // Clear the question and answer inputs
@@ -128,4 +129,15 @@ list.addEventListener("click", (e) => {
   parent.remove();
   items = items.filter((item) => item.id !== listId);
   saveItems();
+});
+
+// Execute a function when the user releases a key on the keyboard
+ticker.addEventListener("keyup", function (event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    event.preventDefault();
+
+    // Trigger the button element with a click
+    add.click();
+  }
 });
