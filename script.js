@@ -106,7 +106,7 @@ function renderItems(item) {
   percent.innerText = `Change: ${parseFloat(item.changePercent).toFixed(2)}%`;
 
   // Change the colour of the text depending on price changes
-  if (item.price > item.open) {
+  if (item.price > item.close) {
     price.classList.add("price-positive");
     change.classList.add("price-positive");
     percent.classList.add("price-positive");
