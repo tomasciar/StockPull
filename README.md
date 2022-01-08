@@ -1,7 +1,7 @@
 # StockPull
 A lightweight stock tracking website that saves your settings in the browser
 
-<img width="1348" alt="stockpull" src="https://user-images.githubusercontent.com/81879857/148625848-21ebe7cf-aa27-407b-8b91-732224cfac57.png">
+<img width="1287" alt="stockpull" src="https://user-images.githubusercontent.com/81879857/148628848-2820e982-373f-4e48-84c8-29b8a57206b0.png">
 
 ## Backstory
 I really enjoyed using the Stocks app on my iPhone, but it wasn't compatible with my Windows desktop. I found that there was not even a great way to find quick stock information on Windows in general, so I made this website to serve as my way to keep track of my stocks on all my different platforms.
