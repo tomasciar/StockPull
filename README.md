@@ -16,4 +16,4 @@ Market data for listings on the World's top exchanges, including TSX, NYSE, NASD
 - Clone repository
 - cd StockPull
 - Visit [Alpha Vantage](https://www.alphavantage.co/support/#api-key) to claim free API key
-- Enter API key in config_sample.js
+- Enter API key in config.js
