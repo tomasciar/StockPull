@@ -13,7 +13,10 @@ Unlike the Stocks app for iOS and macOS, there are no easy ways to access stock 
 Market data for listings on the World's top exchanges, including TSX, NYSE, NASDAQ and AMEX. Due to the limitations of the free version of the Alpha Vantage API, only 5 requests are allowed per minute. A next step that I want is to be able to see intraday stock prices.
 
 ## Quickstart Guide for Development
-- Clone repository
-- cd StockPull
+If you would like to make modifications on a local version:
+- Download most recent release
+- Open .zip file
+- Open repository in an editor
 - Visit [Alpha Vantage](https://www.alphavantage.co/support/#api-key) to claim free API key
 - Enter API key in config.js
+- Done 😎
